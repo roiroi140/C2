@@ -18,7 +18,9 @@ void bige(int &i, unsigned char h){
     int x = h - '0';
     i = x - 1;
 }
-
+void bigf(int &i){
+    cout << i;
+}
 void bigp(vector<unsigned char> &program, size_t &pc) {
 
     pc++;  // Pの次へ

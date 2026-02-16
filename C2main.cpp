@@ -57,6 +57,11 @@ int main()
 			bigd(B, program[pc + 1]);
 			pc += 2;
 		}
+		else if (program[pc] == 'F')
+		{
+			bigf(B);
+			pc += 1;
+		}
 		else if (program[pc] == 'P')
 		{
 			bigp(program, pc);
